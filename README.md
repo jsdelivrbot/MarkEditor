@@ -10,7 +10,7 @@ Type anything after the slash in the URL (except for another slash) to visit a u
     
 - https://markdowneditor.herokuapp.com/someSetOfCharactersHere
 
-### Technologies Used
+### Technologies
 
 This website uses the following:
 
