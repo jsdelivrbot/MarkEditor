@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#writingArea, #displayArea {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#displayArea {
+    float: right;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    outline-color: rgb(179, 178, 178);
+    border-right: 2px rgb(206, 204, 204) solid;
+    font-family: inherit;
+    font-size: inherit;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "markeditor",
+  "version": "1.0.0",
+  "description": "A Realtime Markdown Viewer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayisray/MarkEditor.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "nodejs",
+    "sharejs"
+  ],
+  "author": "Jorge Israelian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayisray/MarkEditor/issues"
+  },
+  "homepage": "https://github.com/jayisray/MarkEditor#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "redis": "^2.8.0",
+    "share": "^0.6.3"
+  }
+}
